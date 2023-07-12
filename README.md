@@ -1,5 +1,5 @@
 KNAPSACK PROBLEM
-
+-----------------
 Courier has received n parcels ai of weight s(ai) to be delivered to customers. Because of
 permissible load capacity of the car, it can take only b kilograms. Every parcel has it own value w(ai) that is independent of weight.
 
