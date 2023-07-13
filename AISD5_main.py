@@ -2,19 +2,21 @@ import AISD5_def
 import time
 import csv
 
+# The size (n) of the problem. In each task size is adjusted to the solution time.
+size_1 = 12 
+size_2 = 50
+size_3 = 12
+size_4 = 18
+size_5 = 20000 
+size_6 = 50 
 
-size_1 = 5 #TUTAJ W OKOLICACH 12 ELEMENTÓW TAK W SAM RAZ (MAX CZAS 15s)
-size_2 = 5  #DP tutaj tak 50 elementow bedzie git
-size_3 = 5  #BF tutaj 12
-size_4 = 5  #BF2 tutaj 18
-size_5 = 5  #GH4 tutaj 20000 elem to minimum
-size_6 = 50 #taki sam jak size_2 wsn
-
+# Solution times for Task 2
 z2_times_BF = []
 z2_times_BF2 = []
 z2_times_DP = []
 z2_times_GH4 = []
 
+# Solution times for Task 3
 z3_times_BF_25 = []
 z3_times_BF2_25 = []
 z3_times_DP_25 = []
@@ -24,6 +26,7 @@ z3_times_BF2_75 = []
 z3_times_DP_75 = []
 z3_times_GH4_75 = []
 
+# Results of Task 4
 z4_results_DP_25 = []
 z4_results_DP_50 = []
 z4_results_DP_75 = []
@@ -277,7 +280,7 @@ for i in range(10):
 
     print("-----", i+1, "-----")
 
-
+# Savinf results to csv files
 
 # with open('PP task 2.csv', 'w', encoding='UTF8', newline='') as file:
 #     writer = csv.writer(file)
