@@ -280,7 +280,7 @@ for i in range(10):
 
     print("-----", i+1, "-----")
 
-# Savinf results to csv files
+# Saving results to csv files
 
 # with open('PP task 2.csv', 'w', encoding='UTF8', newline='') as file:
 #     writer = csv.writer(file)
